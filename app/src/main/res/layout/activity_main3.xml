@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="6.5"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:weightSum="3.5"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:background="#E31433"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:text="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:background="#C3B42A"
+            android:gravity="center"
+            android:layout_weight="2.5"
+            android:textSize="50sp"
+            android:text="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:background="#0CC82B"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="50sp"
+                android:text="3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#A33FB5"
+                android:gravity="center"
+                android:text="4"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+            <TextView
+                android:background="#C5BFBF"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:text="5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:background="#FF5722"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:text="6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:background="#3F51B5"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:text="7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</LinearLayout>
